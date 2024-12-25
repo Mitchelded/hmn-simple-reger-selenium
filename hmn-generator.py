@@ -1,6 +1,7 @@
 import time
 import google_colab_selenium as gs
-
+from selenium.webdriver import Keys
+from selenium.webdriver.common.by import By
 
 driver = gs.UndetectedChrome()
 
